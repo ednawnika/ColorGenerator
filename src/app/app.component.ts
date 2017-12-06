@@ -32,5 +32,11 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.selectArray();
   }
+  
+  onButtonClick(event) {
+    console.log(`Click event is working, event:`, event);
+  }
+
+
 
 }
